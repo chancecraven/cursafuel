@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact &amp; Request Fuel Service | Cursa Fuel Co. | 24/7 Emergency Fueling</title>
+  <meta name="description" content="Request fuel service or reach our 24/7 emergency line. Cursa Fuel Co. serves SC, NC, GA, FL, TN, and AL. If we said we'd be there, we're already there.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://cursafuel.com/contact.html">
+  <meta property="og:title" content="Contact Cursa Fuel Co. | Request Fuel Service">
+  <meta property="og:description" content="Request fuel delivery or reach our 24/7 emergency line. Serving the Southeast US.">
+  <meta property="og:url" content="https://cursafuel.com/contact.html">
+  <link rel="icon" href="/images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo" aria-label="Cursa Fuel Co. home">
+        <img src="images/cursa-logo-light.png" alt="Cursa Fuel Co." width="180" height="28">
+      </a>
+      <ul class="nav__links">
+        <li><a href="services.html">Services</a></li>
+        <li><a href="industries.html">Industries</a></li>
+        <li><a href="service-area.html">Service Area</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="nav__cta"><a href="contact.html" class="btn btn--primary" aria-current="page">Request Fuel Service</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false" onclick="toggleMenu(this)">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="services.html">Services</a>
+      <a href="industries.html">Industries</a>
+      <a href="service-area.html">Service Area</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Request Fuel Service</a>
+      <a href="contact.html#emergency">24/7 Emergency Response</a>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <section class="page-hero">
+      <div class="page-hero__inner">
+        <p class="eyebrow" style="color: var(--blaze);">Get Started</p>
+        <h1>Request fuel service or reach us now.</h1>
+        <p>Tell us what you need. We'll make sure fuel is never the problem.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT GRID -->
+    <section aria-label="Contact information and request form">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="eyebrow" style="color: var(--gravel);">Contact</p>
+          <h2>Let's talk.</h2>
+          <p>Fill out the form and we'll be in touch within one business day. For urgent or emergency needs, call directly.</p>
+
+          <div class="contact-detail">
+            <p class="contact-detail__label">Phone</p>
+            <a href="tel:+18002872701" class="contact-detail__value">1-800-CURSA-01</a>
+          </div>
+
+          <div class="contact-detail">
+            <p class="contact-detail__label">Email</p>
+            <a href="mailto:info@cursafuel.com" class="contact-detail__value" style="font-size: 17px;">info@cursafuel.com</a>
+          </div>
+
+          <div class="contact-detail">
+            <p class="contact-detail__label">Availability</p>
+            <p class="contact-detail__value" style="font-size: 17px;">24 hours / 7 days / 365 days</p>
+          </div>
+
+          <div class="contact-detail">
+            <p class="contact-detail__label">Primary Service Area</p>
+            <p style="color: rgba(255,255,255,0.55); font-size: 15px; line-height: 1.6;">South Carolina &bull; North Carolina &bull; Georgia &bull; Florida &bull; Tennessee &bull; Alabama</p>
+          </div>
+        </div>
+
+        <div class="contact-form-panel">
+          <h3>Request Fuel Service</h3>
+          <form action="https://formspree.io/f/contact" method="POST" aria-label="Fuel service request form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first_name" autocomplete="given-name" required>
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last_name" autocomplete="family-name" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="org">Organization / Company</label>
+              <input type="text" id="org" name="organization" autocomplete="organization">
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="state">State</label>
+              <select id="state" name="state" required>
+                <option value="" disabled selected>Select state</option>
+                <option value="SC">South Carolina</option>
+                <option value="NC">North Carolina</option>
+                <option value="GA">Georgia</option>
+                <option value="FL">Florida</option>
+                <option value="TN">Tennessee</option>
+                <option value="AL">Alabama</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Select service</option>
+                <option value="Emergency Generator Fueling">Emergency Generator Fueling</option>
+                <option value="Fleet Fueling">Fleet Fueling</option>
+                <option value="Bulk Diesel Delivery">Bulk Diesel Delivery</option>
+                <option value="Bulk Gasoline Delivery">Bulk Gasoline Delivery</option>
+                <option value="DEF Delivery">DEF Delivery</option>
+                <option value="Disaster Response Fueling">Disaster Response Fueling</option>
+                <option value="Tank Monitoring">Remote Tank Monitoring</option>
+                <option value="Tank Rental">Tank Rental</option>
+                <option value="Construction Site Fueling">Construction Site Fueling</option>
+                <option value="Event Fueling">Festival / Event Fueling</option>
+                <option value="Fuel Logistics Management">Fuel Logistics Management</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell us about your operation</label>
+              <textarea id="message" name="message" placeholder="Facility type, volume, schedule, urgency — whatever is relevant."></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary" style="width: 100%;">Send Request</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- EMERGENCY BLOCK -->
+    <section class="section section--crude" id="emergency" aria-label="Emergency response">
+      <div class="container">
+        <div style="display: grid; grid-template-columns: 1fr auto; gap: 40px; align-items: center; max-width: 900px; margin: 0 auto;">
+          <div>
+            <p class="eyebrow" style="color: var(--blaze);">Emergency Response</p>
+            <h2 class="text-white" style="margin: 16px 0 16px;">The line is live. Right now.</h2>
+            <p style="color: rgba(255,255,255,0.6); font-size: 18px; max-width: 500px;">Storm, outage, or active disaster — call the emergency line directly. No forms. No callbacks. Someone answers.</p>
+          </div>
+          <div style="text-align: center; flex-shrink: 0;">
+            <a href="tel:+18002872701" class="btn btn--primary" style="display: block; font-size: 18px; padding: 20px 40px; white-space: nowrap;">1-800-CURSA-01</a>
+            <p style="color: rgba(255,255,255,0.35); font-size: 12px; font-family: var(--font-display); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 12px;">Available 24/7/365</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner">
+      <div class="footer__top">
+        <div>
+          <div class="footer__logo">
+            <img src="images/cursa-logo-light.png" alt="Cursa Fuel Co." width="160" height="24">
+          </div>
+          <p class="footer__tagline">Always Running. Always There.</p>
+        </div>
+        <div class="footer__col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="services.html#generator">Generator Fueling</a></li>
+            <li><a href="services.html#fleet">Fleet Fueling</a></li>
+            <li><a href="services.html#disaster">Disaster Response</a></li>
+            <li><a href="services.html#bulk">Bulk Delivery</a></li>
+            <li><a href="services.html#monitoring">Tank Monitoring</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="industries.html">Industries</a></li>
+            <li><a href="service-area.html">Service Area</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="tel:+18002872701">1-800-CURSA-01</a></li>
+            <li><a href="mailto:info@cursafuel.com">info@cursafuel.com</a></li>
+            <li><a href="contact.html#emergency">Emergency Line</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2025 Cursa Fuel Co. All rights reserved.</p>
+        <p class="footer__emergency">Emergency: 1-800-CURSA-01</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu(btn) {
+      const menu = document.getElementById('mobileMenu');
+      const open = menu.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', open);
+    }
+  </script>
+
+</body>
+</html>
